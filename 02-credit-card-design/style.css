@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #e3f2fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    height: 225px;
+    width: 375px;
+    z-index: 100;
+}
+
+.card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-header,  
+.card .card-header .card-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .card-header .card-logo img {
+    margin-right: 10px;
+}
+
+.card .card-header .card-logo h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card .card-header img {
+    width: 50px;
+}
+
+.card .card-details {
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.card .card-details h6 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card .card-details .number {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.card .card-details .name {
+    margin-top: 20px;
+}
